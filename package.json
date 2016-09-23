@@ -6,13 +6,12 @@
   "scripts": {
     "start": "node --harmony index.js",
     "test": "mocha --reporter spec"
-    "readme": "node ./node_modules/.bin/node-readme"
   },
   "bin": {
     "spotify": "./index.js"
   },
   "author": "Daniel Bloomfield Ramagem <daniel.ramagem@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "co": "^4.6.0",
     "commander": "^2.9.0",
@@ -23,6 +22,5 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.0.1",
-    "node-readme": "^0.1.9"
   }
 }
